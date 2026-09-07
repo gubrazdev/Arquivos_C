@@ -1,0 +1,8 @@
+# Ignora tudo
+*
+
+# Permite pastas
+!*/
+
+# Permite arquivos .c
+!*.c
