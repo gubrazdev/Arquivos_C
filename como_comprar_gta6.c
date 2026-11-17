@@ -2,7 +2,7 @@
 #include <ctype.h> // Para usar o toupper()
 
 int main() {
-    char resp;
+    char resp = '\0';
     int comprou = 0; //  para controlar se o objetivo foi concluido
 
     printf("=== COMO COMPRAR GTA 6 ===\n\n");
@@ -20,7 +20,6 @@ int main() {
         printf("Voce tem emprego? (S/N): ");
         scanf(" %c", &resp);
         if (toupper(resp) == 'S') {
-            // 2.1 Recebeu o salario?
             printf("Recebeu o salario? (S/N): ");
             scanf(" %c", &resp);
             if (toupper(resp) == 'S') {
